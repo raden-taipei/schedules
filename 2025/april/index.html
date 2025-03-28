@@ -1,1 +1,1397 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		  <meta charset="UTF-8">
+		  <title>JADWAL KERJA BULAN APRIL 2025 (RADEN COOKIES TEAM)</title>
+		  <style>
+			body { font-family: Arial, sans-serif; margin: 20px; }
+			table { border-collapse: collapse; width: 100%; font-size: 12px; }
+			th, td { border: 1px solid #ddd; padding: 5px; text-align: center; }
+			th { background-color: #f2f2f2; }
+			.name-column { text-align: left; font-weight: bold; }
+			.no-column { font-weight: bold; }
+			.total-row { background-color: #e6f7ff; font-weight: bold; }
+			.status-row { background-color: #ffffcc; font-weight: bold; }
+			caption {
+			  caption-side: top;
+			  text-align: center;
+			  font-size: 25px;
+			  font-weight: bold;
+			  margin-bottom: 20px;
+			}
+			.no-schedule { background-color: red; }
+			#smallTable { width: 20%; margin-top: 20px; }
+			#smallTable td, #smallTable th { border: 1px solid #aaa; padding: 5px; }
+		  </style>
+			<style>
+		@media print {
+			body {
+				margin: 10mm;
+				font-size: 12pt;
+			}
+			/* Hide navigation or interactive elements */
+			button, input, #searchInput {
+				display: none;
+			}
+			/* Adjust table styles for better printing */
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			th, td {
+				border: 1px solid #000;
+				padding: 4px;
+			}
+			/* Prevent table rows from breaking awkwardly */
+			tr {
+				page-break-inside: avoid;
+			}
+			}
+	</style>
+	
+	<script type="text/javascript">
+		function searchWorker() {
+		  const input = document.getElementById("searchInput");
+		  const filter = input.value.toUpperCase();
+		  const table = document.getElementById("scheduleTable");
+		  const rows = table.getElementsByClassName("workerRow");
+		  for (let i = 0; i < rows.length; i++) {
+			const nameCell = rows[i].querySelector(".name-column");
+			if (nameCell) {
+			  const txtValue = nameCell.textContent || nameCell.innerText;
+			  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				rows[i].style.display = "";
+			  } else {
+				rows[i].style.display = "none";
+			  }
+			}
+		  }
+		}
+		
+		function toggleDetails() {
+		  var details = document.getElementById("toggleDetail");
+		  if(details.style.display === "none"){
+			details.style.display = "";
+		  } else {
+			details.style.display = "none";
+		  }
+		}
+	</script>
+</head>
+		<body>
+		  <table id="scheduleTable">
+			<caption>JADWAL KERJA BULAN APRIL 2025 (RADEN COOKIES TEAM)</caption>
+			<thead>
+			  <tr>
+				<td colspan="32" style="text-align: left; padding-bottom: 20px; border-top: none; border-left: none; border-right: none;">
+				  <input type="text" id="searchInput" onkeyup="searchWorker()" placeholder="Search for worker names...">
+				</td>
+			  </tr>
+			  <tr>
+				<th colspan="2">Workers/Day</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+      </tr>
+			  <tr>
+				<th>No</th>
+				<th>Name</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+        <th>19</th>
+        <th>20</th>
+        <th>21</th>
+        <th>22</th>
+        <th>23</th>
+        <th>24</th>
+        <th>25</th>
+        <th>26</th>
+        <th>27</th>
+        <th>28</th>
+        <th>29</th>
+        <th>30</th>
+      </tr>
+			</thead>
+			<tbody>
+<tr><th colspan="32" style="background:#ddd;">FT Workers</th></tr>
+      <tr class="workerRow">
+              <td class="no-column">1</td>
+              <td class="name-column">Franz</td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>EM</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">2</td>
+              <td class="name-column">Ririn</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">3</td>
+              <td class="name-column">Sarah</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+      </tr>
+<tr><th colspan="32" style="background:#ddd;">SPT Workers</th></tr>
+      <tr class="workerRow">
+              <td class="no-column">4</td>
+              <td class="name-column">Mely</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">5</td>
+              <td class="name-column">Devika</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>M</td>
+        <td>EM</td>
+        <td>EM</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">6</td>
+              <td class="name-column">Fanny</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">7</td>
+              <td class="name-column">Ayi Sindy</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">8</td>
+              <td class="name-column">Aling</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">9</td>
+              <td class="name-column">Tacie</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+<tr><th colspan="32" style="background:#ddd;">JPT Workers</th></tr>
+      <tr class="workerRow">
+              <td class="no-column">10</td>
+              <td class="name-column">Lenika</td>
+        <td>A</td>
+        <td>A</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">11</td>
+              <td class="name-column">Julio</td>
+        <td>A</td>
+        <td>A</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">12</td>
+              <td class="name-column">Suvy</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">13</td>
+              <td class="name-column">Indah</td>
+        <td>A</td>
+        <td>M</td>
+        <td>M</td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">14</td>
+              <td class="name-column">Lisa</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">15</td>
+              <td class="name-column">Bianca</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">16</td>
+              <td class="name-column">Laura</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">17</td>
+              <td class="name-column">Chyntia</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td>EM</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">18</td>
+              <td class="name-column">Mareno</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td>AS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td>AS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>A</td>
+        <td>AS</td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">19</td>
+              <td class="name-column">Ivonne</td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">20</td>
+              <td class="name-column">Fregon</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">21</td>
+              <td class="name-column">Ruth</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td>A</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">22</td>
+              <td class="name-column">Brandon</td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">23</td>
+              <td class="name-column">Bu Aisyah</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">24</td>
+              <td class="name-column">Indra</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">25</td>
+              <td class="name-column">Yesika</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">26</td>
+              <td class="name-column">Kevin</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>MS</td>
+        <td>MS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">27</td>
+              <td class="name-column">July SCS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EMS</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="workerRow">
+              <td class="no-column">28</td>
+              <td class="name-column">Sylvia</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>EM</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td>M</td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+        <td class="no-schedule"></td>
+      </tr>
+      <tr class="total-row">
+				<td class="name-column" colspan="2">Total Scheduled</td>
+        <td>14</td>
+        <td>15</td>
+        <td style="color: red;">12</td>
+        <td>14</td>
+        <td>16</td>
+        <td style="color: red;">15</td>
+        <td style="color: red;">0</td>
+        <td>15</td>
+        <td>16</td>
+        <td>14</td>
+        <td>15</td>
+        <td>18</td>
+        <td style="color: red;">15</td>
+        <td>13</td>
+        <td>14</td>
+        <td>16</td>
+        <td>15</td>
+        <td>15</td>
+        <td>18</td>
+        <td>16</td>
+        <td>13</td>
+        <td>15</td>
+        <td>16</td>
+        <td>15</td>
+        <td>15</td>
+        <td style="color: red;">15</td>
+        <td>17</td>
+        <td>13</td>
+        <td>15</td>
+        <td>16</td>
+      </tr>
+      <tr>
+				<td colspan="32" style="text-align: left;">
+				  <button onclick="toggleDetails()">Show Details</button>
+				</td>
+			  </tr>
+      <tbody id="toggleDetail" style="display:none;">
+      <tr class="total-row">
+				<td class="name-column" colspan="2">Detail Scheduled</td>
+        <td>EM:6, EMS:1, M:0, MS:1, A:6, AS:0</td>
+        <td>EM:5, EMS:1, M:1, MS:2, A:6, AS:0</td>
+        <td>EM:6, EMS:0, M:1, MS:5, A:0, AS:0</td>
+        <td>EM:7, EMS:0, M:4, MS:3, A:0, AS:0</td>
+        <td>EM:11, EMS:0, M:1, MS:4, A:0, AS:0</td>
+        <td>EM:8, EMS:2, M:0, MS:3, A:2, AS:0</td>
+        <td>EM:0, EMS:0, M:0, MS:0, A:0, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:7, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:8, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:0, A:7, AS:0</td>
+        <td>EM:5, EMS:3, M:1, MS:1, A:5, AS:0</td>
+        <td>EM:10, EMS:1, M:1, MS:6, A:0, AS:0</td>
+        <td>EM:8, EMS:2, M:0, MS:4, A:1, AS:0</td>
+        <td>EM:1, EMS:1, M:3, MS:1, A:7, AS:0</td>
+        <td>EM:3, EMS:2, M:1, MS:0, A:7, AS:1</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:8, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:7, AS:0</td>
+        <td>EM:5, EMS:3, M:1, MS:1, A:5, AS:0</td>
+        <td>EM:10, EMS:0, M:2, MS:6, A:0, AS:0</td>
+        <td>EM:10, EMS:0, M:1, MS:4, A:1, AS:0</td>
+        <td>EM:1, EMS:1, M:3, MS:1, A:7, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:0, A:7, AS:1</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:8, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:7, AS:0</td>
+        <td>EM:5, EMS:3, M:1, MS:1, A:5, AS:0</td>
+        <td>EM:9, EMS:0, M:1, MS:5, A:0, AS:0</td>
+        <td>EM:10, EMS:0, M:1, MS:5, A:1, AS:0</td>
+        <td>EM:1, EMS:1, M:3, MS:1, A:7, AS:0</td>
+        <td>EM:4, EMS:2, M:1, MS:0, A:7, AS:1</td>
+        <td>EM:4, EMS:2, M:1, MS:1, A:8, AS:0</td>
+      </tr>
+      <tr class="requirement-row">
+				<td class="name-column" colspan="2">Daily Requirement</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>16</td>
+        <td>16</td>
+        <td>12</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>16</td>
+        <td>16</td>
+        <td>12</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>16</td>
+        <td>16</td>
+        <td>12</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>14</td>
+        <td>16</td>
+        <td>16</td>
+        <td>12</td>
+        <td>14</td>
+        <td>14</td>
+      </tr>
+      <tr class="requirement-detail-row">
+				<td class="name-column" colspan="2">Daily Requirement Detail</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:10; EMS:2; M:2; MS:2; A:0; AS:0</td>
+        <td>EM:12; EMS:2; M:1; MS:0; A:1; AS:0</td>
+        <td>EM:0; EMS:0; M:5; MS:1; A:6; AS:0</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:10; EMS:2; M:2; MS:2; A:0; AS:0</td>
+        <td>EM:12; EMS:2; M:1; MS:0; A:1; AS:0</td>
+        <td>EM:0; EMS:0; M:5; MS:1; A:6; AS:0</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:10; EMS:2; M:2; MS:2; A:0; AS:0</td>
+        <td>EM:12; EMS:2; M:1; MS:0; A:1; AS:0</td>
+        <td>EM:0; EMS:0; M:5; MS:1; A:6; AS:0</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:10; EMS:2; M:2; MS:2; A:0; AS:0</td>
+        <td>EM:12; EMS:2; M:1; MS:0; A:1; AS:0</td>
+        <td>EM:0; EMS:0; M:5; MS:1; A:6; AS:0</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+        <td>EM:5; EMS:2; M:1; MS:1; A:4; AS:1</td>
+      </tr>
+      <tr class="status-row">
+				<td class="name-column" colspan="2">Staffing Status</td>
+        <td>EM:+1; EMS:-1; M:-1; A:+2; AS:-1</td>
+        <td>EMS:-1; MS:+1; A:+2; AS:-1</td>
+        <td>EM:+1; EMS:-2; MS:+4; A:-4; AS:-1</td>
+        <td>EM:+2; EMS:-2; M:+3; MS:+2; A:-4; AS:-1</td>
+        <td>EM:+1; EMS:-2; M:-1; MS:+2</td>
+        <td>EM:-4; M:-1; MS:+3; A:+1</td>
+        <td>M:-5; MS:-1; A:-6</td>
+        <td>EM:-1; A:+3; AS:-1</td>
+        <td>EM:-1; A:+4; AS:-1</td>
+        <td>EM:-1; MS:-1; A:+3; AS:-1</td>
+        <td>EMS:+1; A:+1; AS:-1</td>
+        <td>EMS:-1; M:-1; MS:+4</td>
+        <td>EM:-4; M:-1; MS:+4</td>
+        <td>EM:+1; EMS:+1; M:-2; A:+1</td>
+        <td>EM:-2; MS:-1; A:+3</td>
+        <td>EM:-1; A:+4; AS:-1</td>
+        <td>EM:-1; A:+3; AS:-1</td>
+        <td>EMS:+1; A:+1; AS:-1</td>
+        <td>EMS:-2; MS:+4</td>
+        <td>EM:-2; EMS:-2; MS:+4</td>
+        <td>EM:+1; EMS:+1; M:-2; A:+1</td>
+        <td>EM:-1; MS:-1; A:+3</td>
+        <td>EM:-1; A:+4; AS:-1</td>
+        <td>EM:-1; A:+3; AS:-1</td>
+        <td>EMS:+1; A:+1; AS:-1</td>
+        <td>EM:-1; EMS:-2; M:-1; MS:+3</td>
+        <td>EM:-2; EMS:-2; MS:+5</td>
+        <td>EM:+1; EMS:+1; M:-2; A:+1</td>
+        <td>EM:-1; MS:-1; A:+3</td>
+        <td>EM:-1; A:+4; AS:-1</td>
+      </tr>
+      <tr>
+			  
+				<th colspan="2"></th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+      </tr>
+			  <tr>
+				<th></th>
+				<th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+        <th>19</th>
+        <th>20</th>
+        <th>21</th>
+        <th>22</th>
+        <th>23</th>
+        <th>24</th>
+        <th>25</th>
+        <th>26</th>
+        <th>27</th>
+        <th>28</th>
+        <th>29</th>
+        <th>30</th>
+      </tr>
+      </tbody>
+      <tr>
+				<td colspan="32" style="text-align: left;">
+				  <button onclick="window.print();">Print Schedule</button>
+				</td>
+			  </tr>
+    </tbody>
+  </table>
+  
+  <br>
+  <h3>Additional Information</h3>
+  <table id="smallTable">
+    <tr>
+      <th>Session</th>
+      <th>Time</th>
+    </tr>
+    <tr>
+      <td>EM</td>
+      <td>07.30 - 17.30</td>
+    </tr>
+	<tr>
+      <td>EMS</td>
+      <td>07.30 - 13.00</td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>09.00 - 18.00</td>
+    </tr>
+	<tr>
+      <td>MS</td>
+      <td>09.00 - END</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>13.00 - END</td>
+    </tr>
+	<tr>
+      <td>AS</td>
+      <td>17.00 - END</td>
+    </tr>
+  </table>
+  <br><br>
 
+</body>
+</html>
