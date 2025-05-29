@@ -20,14 +20,22 @@
 			  margin-bottom: 20px;
 			}
 			.no-schedule { background-color: red; }
-			#smallTable { width: 20%; margin-top: 20px; }
-			#smallTable td, #smallTable th { border: 1px solid #aaa; padding: 5px; }
+			#smallTable { width: 100%; margin-top: 20px; }
+			#smallTable td, #smallTable th { border: 1px solid #aaa !important; padding: 5px; }
+			
+			#largeTable { width: 70%; margin-top: 20px; }
+			#largeTable td, #largeTable th { padding: 5px; }
+			#largeTable,
+			#largeTable td {
+			  border: none;
+			}
 			
 			.notes-list {
 			margin: 10px 0 20px 20px;
 			padding: 0;
 			list-style-type: disc;
-			font-size: 12px;
+			font-size: 14px;
+			text-align: left;
 		  }
 		  </style>
 			<style>
@@ -126,7 +134,7 @@
         <th>Sat</th>
         <th>Sun</th>
         <th>Mon</th>
-    <th>Total</th>
+    <th class="status-row">Total</th>
       </tr>
 			  <tr>
 				<th>No</th>
@@ -161,7 +169,7 @@
         <th>28</th>
         <th>29</th>
         <th>30</th>
-    <th>Off</th>
+    <th class="status-row">Off</th>
       </tr>
 			</thead>
 			<tbody>
@@ -199,7 +207,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">6</td>
+        <td class="status-row">6</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">2</td>
@@ -234,7 +242,7 @@
         <td>EM</td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">9</td>
+        <td class="status-row">9</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">3</td>
@@ -269,7 +277,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">11</td>
+        <td class="status-row">11</td>
       </tr>
 <tr><th colspan="33" style="background:#ddd;">SPT Workers</th></tr>
       <tr class="workerRow">
@@ -305,7 +313,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">6</td>
+        <td class="status-row">6</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">5</td>
@@ -340,7 +348,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">7</td>
+        <td class="status-row">7</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">6</td>
@@ -375,7 +383,7 @@
         <td>EM</td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">10</td>
+        <td class="status-row">10</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">7</td>
@@ -410,7 +418,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">11</td>
+        <td class="status-row">11</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">8</td>
@@ -445,7 +453,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">13</td>
+        <td class="status-row">13</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">9</td>
@@ -480,7 +488,7 @@
         <td>EM</td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">23</td>
+        <td class="status-row">23</td>
       </tr>
 <tr><th colspan="33" style="background:#ddd;">JPT Workers</th></tr>
       <tr class="workerRow">
@@ -516,7 +524,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">6</td>
+        <td class="status-row">6</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">11</td>
@@ -551,7 +559,7 @@
         <td>MS</td>
         <td>MS</td>
         <td class="no-schedule"></td>
-        <td class="off-count">9</td>
+        <td class="status-row">9</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">12</td>
@@ -586,7 +594,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">9</td>
+        <td class="status-row">9</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">13</td>
@@ -621,7 +629,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">11</td>
+        <td class="status-row">11</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">14</td>
@@ -656,7 +664,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">12</td>
+        <td class="status-row">12</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">15</td>
@@ -691,7 +699,7 @@
         <td class="no-schedule"></td>
         <td>M</td>
         <td class="no-schedule"></td>
-        <td class="off-count">15</td>
+        <td class="status-row">15</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">16</td>
@@ -726,7 +734,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">15</td>
+        <td class="status-row">15</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">17</td>
@@ -761,7 +769,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">17</td>
+        <td class="status-row">17</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">18</td>
@@ -796,7 +804,7 @@
         <td class="no-schedule"></td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">18</td>
+        <td class="status-row">18</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">19</td>
@@ -831,7 +839,7 @@
         <td>MS</td>
         <td>MS</td>
         <td class="no-schedule"></td>
-        <td class="off-count">19</td>
+        <td class="status-row">19</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">20</td>
@@ -866,7 +874,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">19</td>
+        <td class="status-row">19</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">21</td>
@@ -901,7 +909,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">21</td>
+        <td class="status-row">21</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">22</td>
@@ -936,7 +944,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">21</td>
+        <td class="status-row">21</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">23</td>
@@ -971,7 +979,7 @@
         <td>EM</td>
         <td>EM</td>
         <td class="no-schedule"></td>
-        <td class="off-count">22</td>
+        <td class="status-row">22</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">24</td>
@@ -1006,7 +1014,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">26</td>
+        <td class="status-row">26</td>
       </tr>
       <tr class="workerRow">
               <td class="no-column">25</td>
@@ -1041,7 +1049,7 @@
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
         <td class="no-schedule"></td>
-        <td class="off-count">30</td>
+        <td class="status-row">30</td>
       </tr>
       <tr class="total-row">
 				<td class="name-column" colspan="2">Total Scheduled</td>
@@ -1292,47 +1300,54 @@
   </table>
   
   <br>
-  <h3>Additional Information</h3>
+  <table id="largeTable">
+  <tr>
+       <td style="vertical-align: top;padding-right:40px">
+  <h2 style="text-align:left">Additional Information</h2>
   <table id="smallTable">
-    <tr>
-      <th>Session</th>
-      <th>Time</th>
-    </tr>
-    <tr>
-      <td>EM</td>
-      <td>07.30 - 17.30</td>
-    </tr>
-	<tr>
-      <td>EMS</td>
-      <td>07.30 - 13.00</td>
-    </tr>
-    <tr>
-      <td>M</td>
-      <td>09.00 - 18.00</td>
-    </tr>
-	<tr>
-      <td>MS</td>
-      <td>09.00 - END</td>
-    </tr>
-    <tr>
-      <td>A</td>
-      <td>13.00 - END</td>
-    </tr>
-	<tr>
-      <td>AS</td>
-      <td>17.00 - END</td>
-    </tr>
-  </table>
-  <h3>Catatan</h3>
+				<tr>
+				  <th>Session</th>
+				  <th>Time</th>
+				</tr>
+				<tr>
+				  <td>EM</td>
+				  <td>07.30 - 17.30</td>
+				</tr>
+				<tr>
+				  <td>EMS</td>
+				  <td>07.30 - 13.00</td>
+				</tr>
+				<tr>
+				  <td>M</td>
+				  <td>09.00 - 18.00</td>
+				</tr>
+				<tr>
+				  <td>MS</td>
+				  <td>09.00 - END</td>
+				</tr>
+				<tr>
+				  <td>A</td>
+				  <td>13.00 - END</td>
+				</tr>
+				<tr>
+				  <td>AS</td>
+				  <td>17.00 - END</td>
+				</tr>
+			  </table>
+</td>
+	   <td style="vertical-align: top">
+  <h2 style="text-align:left">Catatan</h2>
   <ul class="notes-list">
     <li>Ayi Sindy s/d Jam 17:00</li>
-    <li>Bu Aisyah s/d Jam 17:00 (kecuali 25-27 s/d Jam 15:00)</li>
+    <li>Bu Aisyah s/d Jam 17:00 (kecuali tanggal 25-27 s/d Jam 15:00)</li>
     <li>Fregon 25-26 EMS s/d 15:00</li>
     <li>Indah s/d Jam 15:00</li>
     <li>Chyntia tanggal 27 s/d Jam 15:30</li>
     <li>EMS s/d Jam 13:00 (Tidak ada yang custom kecuali ada agreement terlebih dahulu)</li>
   </ul>
-  
+	   </td>
+  </tr>
+  </table>
   <br><br>
 
 </body>
